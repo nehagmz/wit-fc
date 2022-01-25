@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-color: rgba(95, 13, 172, 0.514); */
+   background: linear-gradient(to left,rgb(151, 51, 151), white);
+   background-image: url(test.jpg);
+   background-size: cover;
+height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: rgb(51, 9, 9);
+    color: rgb(97, 28, 88);
+
+}
+/*.logo img{
+    height: 80px;
+    filter: contrast(1000%);
+}*/
+.logo span{
+    color: rgb(106, 70, 143);
+    font-family: 'Neonderthaw', cursive;
+}
+.nav-links a{
+    color: rgb(85, 27, 27);
+}
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+.menu li:hover{
+    background-color: cyan;
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+}
+menu li{
+    padding: 5px 4px 0 0;
+
+}
+.input{
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(22, 3, 3);
+    width: 50%;
+    margin: 100px 0 0 150px;
+    padding: 20px;
+}
+input[type=text],select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:  inline-block;
+    border: 2px solid rgb(131, 79, 79);
+    border-radius: 10px;
+
+}
+input[type=radio],select{
+    padding: 12px 20px;
+    margin: 8px 20px 0 10px;
+    display: inline-block;
+}
+button{
+    width: 100%;
+    background-color: rgb(66, 9, 9);
+    color: cornsilk;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(59, 47, 50);
+    height: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+/* responsive web*/
